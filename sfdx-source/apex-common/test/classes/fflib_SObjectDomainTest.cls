@@ -26,7 +26,8 @@
 
 @IsTest
 private with sharing class fflib_SObjectDomainTest 
-{	
+{
+
 	@IsTest
 	private static void testValidationWithoutDML()
 	{

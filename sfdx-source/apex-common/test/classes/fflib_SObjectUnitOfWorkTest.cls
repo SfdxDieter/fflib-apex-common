@@ -27,6 +27,7 @@
 @IsTest
 private with sharing class fflib_SObjectUnitOfWorkTest
 {
+
     // SObjects (in order of dependency) used by UnitOfWork in tests bellow
     private static List<Schema.SObjectType> MY_SOBJECTS =
         new Schema.SObjectType[] {

@@ -27,7 +27,6 @@
 @IsTest
 private with sharing class fflib_SObjectSelectorTest 
 {
-	
 	static testMethod void testGetSObjectName()
 	{
 		Testfflib_SObjectSelector selector = new Testfflib_SObjectSelector();
@@ -260,7 +259,7 @@ private with sharing class fflib_SObjectSelectorTest
 			super(includeFieldSetFields, enforceCRUD, enforceFLS, sortSelectFields);
 		}
 		
-		public List<Schema.SObjectField> getSObjectFieldList()
+		public override List<Schema.SObjectField> getSObjectFieldList()
 		{
 			return new List<Schema.SObjectField> {
 				Account.Name,
@@ -270,7 +269,7 @@ private with sharing class fflib_SObjectSelectorTest
 			};
 		}
 		
-		public Schema.SObjectType getSObjectType()
+		public override Schema.SObjectType getSObjectType()
 		{
 			return Account.sObjectType;
 		}

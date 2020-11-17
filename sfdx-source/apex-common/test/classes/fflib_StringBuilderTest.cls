@@ -26,7 +26,8 @@
 
 @IsTest
 private with sharing class fflib_StringBuilderTest 
-{	
+{
+
 	static testMethod void testfflib_StringBuilder1()
 	{
 		fflib_StringBuilder sb = new fflib_StringBuilder();

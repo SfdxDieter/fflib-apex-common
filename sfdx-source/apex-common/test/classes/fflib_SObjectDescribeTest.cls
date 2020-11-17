@@ -31,6 +31,7 @@
 @isTest
 private class fflib_SObjectDescribeTest {
 
+
 	/**
 	 * Verify that the different ways of getting your hands on an fflib_SObjectDescribe instance all handle null inputs
 	 * (and blank/empty strings, why not?) by returning null - since there's no possible way to resolve it.
